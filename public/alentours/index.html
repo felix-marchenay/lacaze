@@ -16,14 +16,15 @@
             color: #333;
         }
         header {
-            background: rgba(45, 80, 22, 0.95);
+            background: linear-gradient(135deg, rgba(8, 148, 103, 0.98) 0%, rgba(6, 120, 85, 0.98) 100%);
             color: white;
             padding: 1rem 0;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            backdrop-filter: blur(10px);
         }
         .container {
             max-width: 1200px;
@@ -33,24 +34,45 @@
         .site-title {
             font-size: 1.8rem;
             font-weight: 700;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
             text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         nav {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 1.5rem;
+            gap: 0.5rem;
             font-size: 0.95rem;
         }
         nav a {
             color: white;
             text-decoration: none;
             font-weight: 500;
-            transition: opacity 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        nav a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.15);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+        nav a:hover::before {
+            left: 0;
         }
         nav a:hover {
-            opacity: 0.8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background: rgba(255, 255, 255, 0.1);
         }
         main {
             margin-top: 110px;
@@ -70,17 +92,17 @@
             margin: 1.5rem 0;
         }
         h1 {
-            color: #2d5016;
+            color: #089467;
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
         }
         h2 {
-            color: #4a7c2c;
+            color: #089467;
             font-size: 1.8rem;
             margin: 2rem 0 1rem 0;
         }
         h3 {
-            color: #2d5016;
+            color: #089467;
             font-size: 1.4rem;
             margin: 1.5rem 0 0.8rem 0;
         }
@@ -110,7 +132,7 @@
             border-bottom: 1px solid #ddd;
         }
         th {
-            background: #2d5016;
+            background: #089467;
             color: white;
             font-weight: 600;
         }
@@ -252,93 +274,198 @@
 <div class="container content-container">
     <article>
         <h1>Aux Alentours</h1>
-        <p><img src="/images/photo4.jpg" alt="Paysages de l&rsquo;Aveyron"></p>
-<h2 id="sites-incontournables-à-proximité">Sites incontournables à proximité</h2>
-<h3 id="villefranche-de-rouergue-15-min">Villefranche-de-Rouergue (15 min)</h3>
-<p>Bastide royale du XIIIe siècle, Villefranche-de-Rouergue vous séduira par son patrimoine architectural exceptionnel :</p>
-<ul>
-<li>Place Notre-Dame et ses couverts</li>
-<li>Collégiale Notre-Dame</li>
-<li>Chartreuse Saint-Sauveur</li>
-<li>Marchés traditionnels le jeudi matin</li>
-</ul>
-<h3 id="najac-20-min">Najac (20 min)</h3>
-<p>Village perché classé parmi les plus beaux villages de France :</p>
-<ul>
-<li>Forteresse royale surplombant les gorges de l&rsquo;Aveyron</li>
-<li>Village médiéval authentique</li>
-<li>Vues panoramiques exceptionnelles</li>
-<li>Artisans locaux et boutiques d&rsquo;artisanat</li>
-</ul>
-<p><img src="/images/photo3.jpg" alt="Nature de l&rsquo;Aveyron"></p>
-<h3 id="conques-45-min">Conques (45 min)</h3>
-<p>Étape majeure sur les chemins de Saint-Jacques-de-Compostelle :</p>
-<ul>
-<li>Abbatiale Sainte-Foy et ses vitraux de Pierre Soulages</li>
-<li>Village médiéval préservé</li>
-<li>Trésor de Conques</li>
-<li>Chemins de randonnée</li>
-</ul>
-<h3 id="sauveterre-de-rouergue-30-min">Sauveterre-de-Rouergue (30 min)</h3>
-<p>Bastide royale parfaitement conservée :</p>
-<ul>
-<li>Place centrale à arcades</li>
-<li>Architecture médiévale authentique</li>
-<li>Atmosphère paisible et authentique</li>
-</ul>
-<h3 id="cordes-sur-ciel-45-min">Cordes-sur-Ciel (45 min)</h3>
-<p>Cité médiévale perchée dans les nuages :</p>
-<ul>
-<li>Ruelles pavées et maisons gothiques</li>
-<li>Artisans d&rsquo;art et galeries</li>
-<li>Vues imprenables sur la vallée</li>
-<li>Marchés et animations estivales</li>
-</ul>
-<h3 id="rodez-45-min">Rodez (45 min)</h3>
-<p>Préfecture de l&rsquo;Aveyron :</p>
-<ul>
-<li>Cathédrale Notre-Dame</li>
-<li><strong>Musée Soulages</strong> : collection unique de l&rsquo;artiste aveyronnais</li>
-<li>Centre historique animé</li>
-<li>Shopping et gastronomie</li>
-</ul>
-<p><img src="/images/photo1.jpg" alt="Camping et nature"></p>
-<h2 id="activités-nature">Activités nature</h2>
-<h3 id="randonnées">Randonnées</h3>
-<ul>
-<li>Sentiers de la vallée de l&rsquo;Aveyron</li>
-<li>GR et circuits balisés</li>
-<li>VTT et cyclotourisme</li>
-</ul>
-<h3 id="sports-et-loisirs">Sports et loisirs</h3>
-<ul>
-<li>Canoë-kayak sur l&rsquo;Aveyron</li>
-<li>Pêche en rivière</li>
-<li>Baignade dans les bases de loisirs</li>
-<li>Équitation</li>
-</ul>
-<h3 id="gastronomie-locale">Gastronomie locale</h3>
-<ul>
-<li>Marchés de producteurs</li>
-<li>Fermes et producteurs locaux</li>
-<li>Restaurants traditionnels</li>
-<li>Spécialités : aligot, fouace, tripous, fromages</li>
-</ul>
-<h2 id="événements-culturels">Événements culturels</h2>
-<p>Tout au long de l&rsquo;année, la région propose de nombreuses animations :</p>
-<ul>
-<li>Festivals d&rsquo;été</li>
-<li>Marchés nocturnes</li>
-<li>Fêtes médiévales</li>
-<li>Concerts et spectacles</li>
-</ul>
-<p><img src="/images/photo5.jpg" alt="Vue du camping"></p>
-<h2 id="patrimoine-industriel">Patrimoine industriel</h2>
-<ul>
-<li>Anciennes mines de charbon de Decazeville</li>
-<li>Musée de la mine</li>
-<li>Architecture industrielle du XIXe siècle</li>
-</ul>
+        <p>Découvrez toutes les activités à faire dans la région. Balades, musées, baignades, points de vues et plus encore.</p>
+<h2 id="les-bastides">Les Bastides</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/villefranche.jpg" alt="Villefranche de Rouergue" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Villefranche de Rouergue</h3>
+<p style="margin: 0.3rem 0;"><strong>14 km - 20 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Bastide royale du XIIIe siècle avec sa magnifique place Notre-Dame à couverts, sa collégiale et la Chartreuse Saint-Sauveur. Marchés traditionnels le jeudi matin.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/najac.jpg" alt="Najac" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Najac</h3>
+<p style="margin: 0.3rem 0;"><strong>26 km - 32 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Village médiéval perché, classé parmi les plus beaux villages de France. Forteresse royale surplombant les gorges de l'Aveyron avec des vues panoramiques exceptionnelles.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/villeneuve.jpg" alt="Villeneuve d'Aveyron" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Villeneuve d'Aveyron</h3>
+<p style="margin: 0.3rem 0;"><strong>26 km - 33 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Bastide fondée au XIIIe siècle, avec une place centrale typique et des maisons à colombages. Atmosphère authentique et paisible.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/sauveterre.jpg" alt="Sauveterre de Rouergue" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Sauveterre de Rouergue</h3>
+<p style="margin: 0.3rem 0;"><strong>32 km - 38 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Bastide royale parfaitement conservée avec sa place centrale à arcades. Architecture médiévale authentique dans un cadre verdoyant.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/belcastel.jpg" alt="Belcastel" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Belcastel</h3>
+<p style="margin: 0.3rem 0;"><strong>33 km - 39 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Classé parmi les plus beaux villages de France, dominé par son château fort du XIe siècle. Village de pierre au bord de l'Aveyron.</p>
+</div>
+</div>
+</div>
+<h2 id="sites-remarquables">Sites remarquables</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/cordes.jpg" alt="Cordes sur Ciel" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Cordes sur Ciel</h3>
+<p style="margin: 0.3rem 0;"><strong>50 km - 56 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Cité médiévale perchée dans les nuages avec ses ruelles pavées, maisons gothiques et ateliers d'artisans d'art. Vues imprenables sur la vallée.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/conques.jpg" alt="Conques" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Conques</h3>
+<p style="margin: 0.3rem 0;"><strong>59 km - 74 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Étape majeure sur les chemins de Saint-Jacques-de-Compostelle. Abbatiale Sainte-Foy avec les vitraux de Pierre Soulages et trésor exceptionnel.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/figeac.jpg" alt="Figeac" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Figeac</h3>
+<p style="margin: 0.3rem 0;"><strong>50 km - 53 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Ville médiévale natale de Champollion, célèbre déchiffreur des hiéroglyphes. Musée Champollion et centre historique animé.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/rodez.jpg" alt="Rodez" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Rodez</h3>
+<p style="margin: 0.3rem 0;"><strong>47 km - 48 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Préfecture de l'Aveyron avec sa cathédrale Notre-Dame et le Musée Soulages, collection unique de l'artiste aveyronnais. Centre historique animé.</p>
+</div>
+</div>
+</div>
+<h2 id="culture-et-divertissement">Culture et divertissement</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/musee-soulages.jpg" alt="Musée Soulages" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Musée Soulages à Rodez</h3>
+<p style="margin: 0.3rem 0;"><strong>48 km - 47 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Musée d'art moderne et contemporain dédié à l'œuvre de Pierre Soulages, peintre aveyronnais de renommée internationale.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/musee-champollion.jpg" alt="Musée Champollion" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Musée Champollion à Figeac</h3>
+<p style="margin: 0.3rem 0;"><strong>50 km - 53 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Musée consacré à Jean-François Champollion et au déchiffrement des écritures anciennes. Installation moderne et ludique.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/micropolis.jpg" alt="Micropolis" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Micropolis près de Millau</h3>
+<p style="margin: 0.3rem 0;"><strong>85 km - 74 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Cité des insectes, parc à thème unique en Europe dédié au monde fascinant des insectes. Animations et découvertes pour toute la famille.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/parc-animalier.jpg" alt="Parc animalier" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Parc animalier de Pradinas</h3>
+<p style="margin: 0.3rem 0;"><strong>19 km - 26 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Parc animalier familial où vous pourrez observer des animaux de la ferme et de la région dans un cadre naturel.</p>
+</div>
+</div>
+</div>
+<h2 id="les-festivals">Les Festivals</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/festival-bastides.jpg" alt="Festival" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Festival en Bastides</h3>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Festival itinérant proposant des spectacles de rue, concerts et animations dans les plus belles bastides de la région.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/africajarc.jpg" alt="Africajarc" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Africajarc</h3>
+<p style="margin: 0.3rem 0;"><strong>41 km - 52 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Festival des musiques d'Afrique à Cajarc, proposant concerts, marché artisanal et gastronomie africaine chaque été.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/festival-theatre.jpg" alt="Festival de théâtre" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Festival de Théâtre Figeac</h3>
+<p style="margin: 0.3rem 0;"><strong>50 km - 54 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Festival de théâtre professionnel présentant des créations contemporaines dans les rues et places de Figeac.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/millau-jazz.jpg" alt="Millau Jazz Festival" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Millau Jazz Festival</h3>
+<p style="margin: 0.3rem 0;"><strong>101 km - 89 min</strong></p>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Festival de jazz de renommée nationale proposant des concerts gratuits et payants avec des artistes internationaux.</p>
+</div>
+</div>
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+<div style="flex: 0 0 120px;">
+<img src="/images/fete-lumiere.jpg" alt="Fête de la lumière" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+<h3 style="margin-top: 0; font-size: 1.1rem;">Fête de la Lumière</h3>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">Événement annuel illuminant les villages et bastides de la région avec des installations lumineuses artistiques.</p>
+</div>
+</div>
+</div>
+<hr>
 <p>La situation du Camping de la Caze vous permet de rayonner facilement dans toute la région et de découvrir la richesse patrimoniale et naturelle de l&rsquo;Aveyron.</p>
 
     </article>

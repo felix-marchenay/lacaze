@@ -16,14 +16,15 @@
             color: #333;
         }
         header {
-            background: rgba(45, 80, 22, 0.95);
+            background: linear-gradient(135deg, rgba(8, 148, 103, 0.98) 0%, rgba(6, 120, 85, 0.98) 100%);
             color: white;
             padding: 1rem 0;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            backdrop-filter: blur(10px);
         }
         .container {
             max-width: 1200px;
@@ -33,24 +34,45 @@
         .site-title {
             font-size: 1.8rem;
             font-weight: 700;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
             text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         nav {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 1.5rem;
+            gap: 0.5rem;
             font-size: 0.95rem;
         }
         nav a {
             color: white;
             text-decoration: none;
             font-weight: 500;
-            transition: opacity 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        nav a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.15);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+        nav a:hover::before {
+            left: 0;
         }
         nav a:hover {
-            opacity: 0.8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background: rgba(255, 255, 255, 0.1);
         }
         main {
             margin-top: 110px;
@@ -70,17 +92,17 @@
             margin: 1.5rem 0;
         }
         h1 {
-            color: #2d5016;
+            color: #089467;
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
         }
         h2 {
-            color: #4a7c2c;
+            color: #089467;
             font-size: 1.8rem;
             margin: 2rem 0 1rem 0;
         }
         h3 {
-            color: #2d5016;
+            color: #089467;
             font-size: 1.4rem;
             margin: 1.5rem 0 0.8rem 0;
         }
@@ -110,7 +132,7 @@
             border-bottom: 1px solid #ddd;
         }
         th {
-            background: #2d5016;
+            background: #089467;
             color: white;
             font-weight: 600;
         }
@@ -252,30 +274,33 @@
 <div class="container content-container">
     <article>
         <h1>Contact</h1>
-        <p><img src="/images/photo5.jpg" alt="Le camping"></p>
-<h2 id="coordonnées">Coordonnées</h2>
-<p><strong>Camping de la Caze</strong><br>
-Lieu-dit &ldquo;La Caze&rdquo;<br>
-12200 La Bastide-l&rsquo;Évêque<br>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; align-items: start;">
+<div>
+<h2 style="color: #089467; font-size: 1.8rem; margin: 0 0 1rem 0;">Coordonnées</h2>
+<p style="margin-bottom: 1rem;"><strong>Camping de la Caze</strong><br>
+Lieu-dit "La Caze"<br>
+12200 La Bastide-l'Évêque<br>
 Aveyron - France</p>
-<h3 id="téléphone">Téléphone</h3>
-<p>📞 <strong>05 81 39 17 81</strong><br>
+
+<h3 style="color: #089467; font-size: 1.4rem; margin: 1.5rem 0 0.8rem 0;">Téléphone</h3>
+<p style="margin-bottom: 1rem;">📞 <strong>05 81 39 17 81</strong><br>
 📱 <strong>06 16 16 07 31</strong></p>
-<h3 id="email">Email</h3>
-<p>📧 <strong><a href="mailto:contact@camping-lacaze.fr">contact@camping-lacaze.fr</a></strong></p>
-<h3 id="réseaux-sociaux">Réseaux sociaux</h3>
-<p>🔵 <a href="https://www.facebook.com/pages/Gamping-de-La-Caze/1642447289302721">Suivez-nous sur Facebook</a></p>
-<h2 id="horaires-daccueil">Horaires d&rsquo;accueil</h2>
-<p><strong>En saison (avril à septembre) :</strong></p>
-<ul>
-<li>Tous les jours de 9h à 12h et de 14h à 19h</li>
-</ul>
-<p><strong>Hors saison :</strong></p>
-<ul>
-<li>Sur rendez-vous</li>
-</ul>
-<p>N&rsquo;hésitez pas à nous appeler ou à nous envoyer un email, nous répondrons dans les plus brefs délais à toutes vos questions.</p>
-<p><img src="/images/photo4.jpg" alt="Nature environnante"></p>
+
+<h3 style="color: #089467; font-size: 1.4rem; margin: 1.5rem 0 0.8rem 0;">Email</h3>
+<p style="margin-bottom: 1rem;">📧 <strong>contact@camping-lacaze.fr</strong></p>
+
+<h3 style="color: #089467; font-size: 1.4rem; margin: 1.5rem 0 0.8rem 0;">Réseaux sociaux</h3>
+<p style="margin-bottom: 1rem;">🔵 <a href="https://www.facebook.com/pages/Gamping-de-La-Caze/1642447289302721" style="color: #089467;">Suivez-nous sur Facebook</a></p>
+
+<p>N'hésitez pas à nous appeler ou à nous envoyer un email, nous répondrons dans les plus brefs délais à toutes vos questions.</p>
+</div>
+<div>
+<img src="/images/photo13.jpg" alt="Le camping" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
+</div>
+
+<h2 id="localisation">Localisation</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5705.91590579788!2d2.1451651693110563!3d44.35191494301271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ada0278e0a6975%3A0xbb281dc03d372518!2sLa+Caze%2C+12200+La+Bastide-l'%C3%89v%C3%AAque!5e0!3m2!1sfr!2sfr!4v1418476788047" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 <h2 id="accès">Accès</h2>
 <h3 id="en-voiture">En voiture</h3>
 <p><strong>Depuis Villefranche-de-Rouergue</strong> (15 min) :</p>
@@ -294,26 +319,10 @@ Aveyron - France</p>
 <li>Prendre la D840 puis D922 en direction de Villefranche-de-Rouergue</li>
 <li>Suivre La Bastide-l&rsquo;Évêque</li>
 </ul>
-<h3 id="coordonnées-gps">Coordonnées GPS</h3>
-<p><strong>Latitude :</strong> 44.467<br>
-<strong>Longitude :</strong> 2.033</p>
 <h3 id="transports-en-commun">Transports en commun</h3>
 <p><strong>Gare SNCF la plus proche :</strong><br>
 Villefranche-de-Rouergue (15 km)</p>
 <p>Possibilité de venir vous chercher à la gare sur réservation.</p>
-<p><img src="/images/photo1.jpg" alt="Accueil au camping"></p>
-<h2 id="formulaire-de-contact">Formulaire de contact</h2>
-<p>Pour toute demande de renseignement ou de réservation, vous pouvez nous contacter :</p>
-<ul>
-<li>Par téléphone aux numéros indiqués ci-dessus</li>
-<li>Par email à <a href="mailto:contact@camping-lacaze.fr">contact@camping-lacaze.fr</a></li>
-<li>Via notre page Facebook</li>
-</ul>
-<p>Nous vous répondrons dans les meilleurs délais.</p>
-<h2 id="plan-daccès">Plan d&rsquo;accès</h2>
-<p>Le camping se situe en pleine campagne, dans la vallée de l&rsquo;Aveyron, à proximité immédiate de La Bastide-l&rsquo;Évêque. Le cadre est paisible et verdoyant, idéal pour se ressourcer.</p>
-<hr>
-<p><em>Nous serons ravis de vous accueillir au Camping de la Caze et de vous faire découvrir notre belle région aveyronnaise !</em></p>
 
     </article>
 </div>

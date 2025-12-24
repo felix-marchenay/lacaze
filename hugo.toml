@@ -40,3 +40,8 @@ introURL = "/le-camping/"
 
 [module]
 # Pas de thème externe, on utilise nos propres layouts
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

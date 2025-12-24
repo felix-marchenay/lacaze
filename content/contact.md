@@ -2,36 +2,11 @@
 title: "Contact"
 ---
 
-![Le camping](/images/photo5.jpg)
+{{< contact-header >}}
 
-## Coordonnées
+## Localisation
 
-**Camping de la Caze**  
-Lieu-dit "La Caze"  
-12200 La Bastide-l'Évêque  
-Aveyron - France
-
-### Téléphone
-📞 **05 81 39 17 81**  
-📱 **06 16 16 07 31**
-
-### Email
-📧 **contact@camping-lacaze.fr**
-
-### Réseaux sociaux
-🔵 [Suivez-nous sur Facebook](https://www.facebook.com/pages/Gamping-de-La-Caze/1642447289302721)
-
-## Horaires d'accueil
-
-**En saison (avril à septembre) :**
-- Tous les jours de 9h à 12h et de 14h à 19h
-
-**Hors saison :**
-- Sur rendez-vous
-
-N'hésitez pas à nous appeler ou à nous envoyer un email, nous répondrons dans les plus brefs délais à toutes vos questions.
-
-![Nature environnante](/images/photo4.jpg)
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5705.91590579788!2d2.1451651693110563!3d44.35191494301271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ada0278e0a6975%3A0xbb281dc03d372518!2sLa+Caze%2C+12200+La+Bastide-l'%C3%89v%C3%AAque!5e0!3m2!1sfr!2sfr!4v1418476788047" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 
 ## Accès
 
@@ -50,33 +25,9 @@ N'hésitez pas à nous appeler ou à nous envoyer un email, nous répondrons dan
 - Prendre la D840 puis D922 en direction de Villefranche-de-Rouergue
 - Suivre La Bastide-l'Évêque
 
-### Coordonnées GPS
-
-**Latitude :** 44.467  
-**Longitude :** 2.033
-
 ### Transports en commun
 
 **Gare SNCF la plus proche :**  
 Villefranche-de-Rouergue (15 km)
 
 Possibilité de venir vous chercher à la gare sur réservation.
-
-![Accueil au camping](/images/photo1.jpg)
-
-## Formulaire de contact
-
-Pour toute demande de renseignement ou de réservation, vous pouvez nous contacter :
-- Par téléphone aux numéros indiqués ci-dessus
-- Par email à contact@camping-lacaze.fr
-- Via notre page Facebook
-
-Nous vous répondrons dans les meilleurs délais.
-
-## Plan d'accès
-
-Le camping se situe en pleine campagne, dans la vallée de l'Aveyron, à proximité immédiate de La Bastide-l'Évêque. Le cadre est paisible et verdoyant, idéal pour se ressourcer.
-
----
-
-*Nous serons ravis de vous accueillir au Camping de la Caze et de vous faire découvrir notre belle région aveyronnaise !*

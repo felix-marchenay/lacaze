@@ -19,16 +19,6 @@ title: "Tarifs et Réservation"
 | Nuitée (2 minimum) | 70 € |
 | Semaine | 420 € |
 
-![Camping de la Caze](/images/photo2.jpg)
-
-## Périodes d'ouverture
-
-**Saison 2025 :**
-- Ouverture : avril
-- Fermeture : fin septembre
-
-Possibilité d'ouverture hors saison sur demande pour le gîte.
-
 ## Comment réserver ?
 
 ### Par téléphone
@@ -43,8 +33,6 @@ Précisez dans votre demande :
 - Type d'hébergement (emplacement ou gîte)
 - Nombre de personnes
 - Type de matériel (tente, caravane, camping-car)
-
-![Vue du camping](/images/photo1.jpg)
 
 ### Sur place
 Vous pouvez également vous présenter directement au camping, sous réserve de disponibilité.
@@ -61,12 +49,10 @@ Un acompte pourra être demandé pour confirmer votre réservation.
 
 En cas d'annulation, merci de nous prévenir le plus tôt possible. Les conditions d'annulation seront précisées lors de la réservation.
 
-![Environnement naturel](/images/photo3.jpg)
-
 ## Informations pratiques
 
 ### Arrivée / Départ
-- Arrivée : à partir de 14h
+- Arrivée : à partir de 16h
 - Départ : avant 12h
 
 ### Animaux
@@ -78,10 +64,3 @@ La taxe de séjour est incluse dans nos tarifs.
 ## Questions ?
 
 N'hésitez pas à nous contacter pour toute question concernant les tarifs, les disponibilités ou les modalités de réservation. Nous serons ravis de vous accueillir au Camping de la Caze !
-
----
-
-**Camping de la Caze**  
-Lieu-dit "La Caze"  
-12200 La Bastide-l'Évêque  
-Aveyron - France
