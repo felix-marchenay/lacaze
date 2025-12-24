@@ -1,3 +1,42 @@
 baseURL = 'https://example.org/'
 languageCode = 'fr-fr'
-title = 'Mon Site'
+title = 'Camping de la caze'
+
+[[menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Le Camping"
+url = "/le-camping/"
+weight = 2
+
+[[menu.main]]
+name = "Le Gîte"
+url = "/le-gite/"
+weight = 3
+
+[[menu.main]]
+name = "Aux Alentours"
+url = "/alentours/"
+weight = 4
+
+[[menu.main]]
+name = "Tarifs"
+url = "/tarifs/"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 6
+
+[params]
+author = "Camping de la Caze"
+description = "Camping familial en Aveyron - La Bastide-l'Évêque"
+introDescription = "Bienvenue au Camping de la Caze, votre havre de paix en Aveyron"
+introURL = "/le-camping/"
+
+[module]
+# Pas de thème externe, on utilise nos propres layouts

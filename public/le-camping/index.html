@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Camping - Camping de la caze</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: rgba(45, 80, 22, 0.95);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .site-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        main {
+            margin-top: 110px;
+        }
+        main.no-margin {
+            margin-top: 0;
+            padding-top: 110px;
+        }
+        .content-container {
+            padding: 3rem 0;
+        }
+        main img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 1.5rem 0;
+        }
+        h1 {
+            color: #2d5016;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            color: #4a7c2c;
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
+        }
+        h3 {
+            color: #2d5016;
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.8rem 0;
+        }
+        footer {
+            background: #f5f5f5;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+            color: #666;
+        }
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #2d5016;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+         
+        .carousel {
+            position: relative;
+            width: 100%;
+            height: calc(100vh - 110px);
+            overflow: hidden;
+        }
+        .carousel-slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .carousel-slide.active {
+            opacity: 1;
+        }
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 0;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .carousel-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .carousel-overlay h2 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .carousel-overlay p {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+        .carousel-indicators {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 0.5rem;
+            z-index: 10;
+        }
+        .indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.5);
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .indicator.active {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="site-title">Camping de la caze</div>
+            <nav>
+                
+                <a href="/">Accueil</a>
+                
+                <a href="/le-camping/">Le Camping</a>
+                
+                <a href="/le-gite/">Le Gîte</a>
+                
+                <a href="/alentours/">Aux Alentours</a>
+                
+                <a href="/tarifs/">Tarifs</a>
+                
+                <a href="/contact/">Contact</a>
+                
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        
+<div class="container content-container">
+    <article>
+        <h1>Le Camping</h1>
+        <h1 id="le-camping-de-la-caze">Le Camping de la Caze</h1>
+<p><img src="/images/photo1.jpg" alt="Vue générale du camping"></p>
+<h2 id="votre-havre-de-paix-en-aveyron">Votre havre de paix en Aveyron</h2>
+<p>Situé dans la vallée de l&rsquo;Aveyron, notre camping familial vous accueille dans un cadre naturel préservé. Profitez de l&rsquo;authenticité de la campagne aveyronnaise tout en bénéficiant d&rsquo;un accès facile aux principaux sites touristiques de la région.</p>
+<p><img src="/images/photo2.jpg" alt="Emplacements du camping"></p>
+<h2 id="nos-emplacements">Nos emplacements</h2>
+<p>Nous proposons <strong>6 emplacements spacieux et ensoleillés</strong> pour accueillir :</p>
+<ul>
+<li>Tentes</li>
+<li>Caravanes</li>
+<li>Camping-cars</li>
+</ul>
+<p>Chaque emplacement bénéficie d&rsquo;un environnement calme et verdoyant, idéal pour se ressourcer en famille ou entre amis.</p>
+<p><img src="/images/photo4.jpg" alt="Nature environnante"></p>
+<h2 id="équipements-et-services">Équipements et services</h2>
+<ul>
+<li>Emplacements délimités et ombragés</li>
+<li>Terrain plat et herbeux</li>
+<li>Accès à l&rsquo;eau</li>
+<li>Électricité disponible (supplément)</li>
+<li>Environnement calme et naturel</li>
+<li>Accueil personnalisé et convivial</li>
+</ul>
+<h2 id="situation-géographique">Situation géographique</h2>
+<p>📍 <strong>La Bastide-l&rsquo;Évêque (12200)</strong></p>
+<ul>
+<li>À 15 minutes de Villefranche-de-Rouergue</li>
+<li>Dans la vallée de l&rsquo;Aveyron</li>
+<li>Proche des grands axes routiers</li>
+<li>Accès facile aux sites touristiques de l&rsquo;Aveyron</li>
+</ul>
+<p><img src="/images/photo3.jpg" alt="Paysage aveyronais"></p>
+<h2 id="un-camping-familial-et-authentique">Un camping familial et authentique</h2>
+<p>Notre camping privilégie la qualité de l&rsquo;accueil et le respect de l&rsquo;environnement. Nous vous proposons un séjour en toute simplicité, dans une ambiance chaleureuse et familiale.</p>
+
+    </article>
+</div>
+
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Camping de la caze. Tous droits réservés.</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">
+                Lieu-dit "La Caze", 12200 La Bastide-l'Évêque<br>
+                📧 contact@camping-lacaze.fr | 📞 05 81 39 17 81
+            </p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

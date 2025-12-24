@@ -1,14 +1,64 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
-</head>
-<body>
-    <h1>{{ .Site.Title }}</h1>
-    <main>
-        {{ .Content }}
-    </main>
-</body>
-</html>
+{{ define "main" }}
+<div class="carousel">
+    <div class="carousel-slide active">
+        <img src="/images/photo1.jpg" alt="Camping de la Caze">
+        <div class="carousel-overlay">
+            <h2>Bienvenue au Camping de la Caze</h2>
+            <p>Votre havre de paix en pleine nature dans la vallée de l'Aveyron</p>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="/images/photo2.jpg" alt="Nature et tranquillité">
+        <div class="carousel-overlay">
+            <h2>Un cadre naturel exceptionnel</h2>
+            <p>6 emplacements spacieux dans un environnement paisible</p>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="/images/photo3.jpg" alt="Hébergements">
+        <div class="carousel-overlay">
+            <h2>Camping et Gîte</h2>
+            <p>Des hébergements confortables pour toute la famille</p>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="/images/photo4.jpg" alt="Découvrez l'Aveyron">
+        <div class="carousel-overlay">
+            <h2>Découvrez l'Aveyron</h2>
+            <p>Najac, Conques, Cordes-sur-Ciel... les plus beaux sites à proximité</p>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="/images/photo5.jpg" alt="La Bastide-l'Évêque">
+        <div class="carousel-overlay">
+            <h2>La Bastide-l'Évêque</h2>
+            <p>À 15 minutes de Villefranche-de-Rouergue</p>
+        </div>
+    </div>
+    
+    <div class="carousel-indicators">
+        <div class="indicator active"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+    </div>
+</div>
+
+<div class="container content-container">
+    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <h2>Camping familial en Aveyron</h2>
+        <p style="font-size: 1.1rem;">
+            Nous vous accueillons à La Bastide-l'Évêque, sur notre terrain en pleine nature 
+            dans la vallée de l'Aveyron, à seulement 15 minutes de Villefranche-de-Rouergue.
+        </p>
+        <p style="font-size: 1.1rem;">
+            Six emplacements ensoleillés vous attendent. Un gîte pour 2 à 7 couchages est également disponible.
+        </p>
+        <p style="margin-top: 2rem;">
+            <a href="/le-camping/" style="display: inline-block; background: #4a7c2c; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; font-weight: 600;">Découvrir le camping</a>
+            <a href="/tarifs/" style="display: inline-block; background: #2d5016; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; font-weight: 600; margin-left: 1rem;">Voir les tarifs</a>
+        </p>
+    </div>
+</div>
+{{ end }}
