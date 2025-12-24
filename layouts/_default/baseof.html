@@ -225,7 +225,10 @@
 <body>
     <header>
         <div class="container">
-            <div class="site-title">{{ .Site.Title }}</div>
+            <div class="site-title" style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+                <img src="/logo.png" alt="{{ .Site.Title }}" style="height: 60px; width: auto;">
+                <span>Camping de la Caze</span>
+            </div>
             <nav>
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL }}">{{ .Name }}</a>

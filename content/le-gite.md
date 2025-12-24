@@ -2,7 +2,7 @@
 title: "Le Gîte"
 ---
 
-{{< gallery images="photo1.jpg,photo2.jpg,photo3.jpg,photo4.jpg,photo5.jpg,photo6.jpg,photo7.jpg,photo8.jpg,photo30.jpg" >}}
+{{< gallery images="photo1.jpg,photo2.jpg,photo4.jpg,photo5.jpg,photo6.jpg,photo7.jpg,photo8.jpg,photo30.jpg,photo46.jpg" >}}
 
 ## Un hébergement confortable en pleine nature
 
@@ -19,22 +19,14 @@ Une configuration idéale pour accueillir familles et groupes d'amis dans un cad
 
 ### Espaces communs
 - Cuisine équipée
-- Salon convivial
-- Salle à manger
+- Salon/Salle à manger convivial
 - Sanitaires complets
 
 ### Extérieurs
-- Terrain privé
-- Espace détente extérieur
-- Vue sur la nature environnante
-### Extérieurs
-- Terrain privé
-- Espace détente extérieur
-- Terrain privé
-- Espace détente extérieur
+- Jardin privé
 - Vue sur la nature environnante
 
-## Un cadre idéal pour vos vacancesrte de l'Aveyron :
+## Un cadre idéal pour vos vacances dans l'Aveyron :
 - Randonnées pédestres et VTT
 - Sites médiévaux (Najac, Sauveterre, Cordes-sur-Ciel)
 - Patrimoine culturel (Conques, Musée Soulages)
