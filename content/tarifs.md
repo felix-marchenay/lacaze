@@ -2,19 +2,22 @@
 title: "Tarifs et Réservation"
 ---
 
-# Tarifs et Réservation
-
 ## Grille de tarifs
 
-| Type d'hébergement | Détails | Prix |
-|-------------------|---------|------|
-| **Camping nuitée** | Emplacement + 2 personnes | 16 € |
-| Personne supplémentaire | (+ de 4 ans) | 4 € |
-| Électricité | Par nuit | 3 € |
-| **Gîte 1 chambre** | Nuitée (2 minimum) | 50 € |
-|  | Semaine | 300 € |
-| **Gîte 2 chambres** | Nuitée (2 minimum) | 70 € |
-|  | Semaine | 420 € |
+### Camping
+
+| Description | Prix |
+|-------------|------|
+| Emplacement + 2 personnes | 16 € |
+| Personne supplémentaire (+ de 4 ans) | 4 € |
+| Électricité | 3 € |
+
+### Le Gîte
+
+| Description | Prix |
+|-------------|------|
+| Nuitée (2 minimum) | 70 € |
+| Semaine | 420 € |
 
 ![Camping de la Caze](/images/photo2.jpg)
 

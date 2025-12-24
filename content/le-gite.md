@@ -2,9 +2,7 @@
 title: "Le Gîte"
 ---
 
-# Le Gîte de la Caze
-
-![Le gîte](/images/camping1.jpg)
+{{< gallery images="photo1.jpg,photo2.jpg,photo3.jpg,photo4.jpg,photo5.jpg,photo6.jpg,photo7.jpg,photo8.jpg,photo30.jpg" >}}
 
 ## Un hébergement confortable en pleine nature
 
@@ -12,21 +10,12 @@ Notre gîte vous offre un hébergement de qualité au cœur de la campagne aveyr
 
 ## Capacité d'accueil
 
-Le gîte peut accueillir **de 2 à 7 personnes**, ce qui en fait un hébergement flexible adapté à différentes configurations :
-- Couples
-- Petites familles
-- Familles nombreuses
-- Groupes d'amis
+Le gîte peut accueillir **jusqu'à 7 personnes** avec ses **2 chambres** :
+- **Chambre du bas** : 1 lit double (140x190 cm)
+- **Chambre du haut** : 1 lit double (140x190 cm) + 1 lit simple (90x190 cm)
+- **Salon** : 1 canapé convertible (140x190 cm)
 
-![Intérieur du gîte](/images/photo5.jpg)
-
-## Équipements
-
-### Chambres et couchages
-- Gîte 1 chambre : jusqu'à 2 personnes
-- Gîte 2 chambres : jusqu'à 7 personnes
-- Literie de qualité
-- Capacité modulable selon vos besoins
+Une configuration idéale pour accueillir familles et groupes d'amis dans un cadre confortable.
 
 ### Espaces communs
 - Cuisine équipée
@@ -38,16 +27,14 @@ Le gîte peut accueillir **de 2 à 7 personnes**, ce qui en fait un hébergement
 - Terrain privé
 - Espace détente extérieur
 - Vue sur la nature environnante
+### Extérieurs
+- Terrain privé
+- Espace détente extérieur
+- Terrain privé
+- Espace détente extérieur
+- Vue sur la nature environnante
 
-## Un cadre idéal pour vos vacances
-
-Le gîte bénéficie du même environnement calme et naturel que le camping. Vous pourrez profiter de la tranquillité de la campagne tout en ayant accès à toutes les commodités nécessaires pour un séjour agréable.
-
-![Vue extérieure](/images/photo2.jpg)
-
-## Activités à proximité
-
-Depuis le gîte, partez à la découverte de l'Aveyron :
+## Un cadre idéal pour vos vacancesrte de l'Aveyron :
 - Randonnées pédestres et VTT
 - Sites médiévaux (Najac, Sauveterre, Cordes-sur-Ciel)
 - Patrimoine culturel (Conques, Musée Soulages)

@@ -2,8 +2,6 @@
 title: "Aux Alentours"
 ---
 
-# Découvrir l'Aveyron autour du Camping
-
 ![Paysages de l'Aveyron](/images/photo4.jpg)
 
 ## Sites incontournables à proximité

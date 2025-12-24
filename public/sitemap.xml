@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/le-camping/</loc>
   </url><url>
+    <loc>http://localhost:1313/le-gite/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/tarifs/</loc>

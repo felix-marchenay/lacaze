@@ -2,8 +2,6 @@
 title: "Contact"
 ---
 
-# Nous Contacter
-
 ![Le camping](/images/photo5.jpg)
 
 ## Coordonnées

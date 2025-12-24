@@ -2,8 +2,6 @@
 title: "Le Camping"
 ---
 
-# Le Camping de la Caze
-
 ![Vue générale du camping](/images/photo1.jpg)
 
 ## Votre havre de paix en Aveyron
