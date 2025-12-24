@@ -28,9 +28,14 @@ url = "/tarifs/"
 weight = 5
 
 [[menu.main]]
+name = "Photos"
+url = "/photos/"
+weight = 6
+
+[[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 6
+weight = 7
 
 [params]
 author = "Camping de la Caze"

@@ -14,6 +14,8 @@
   </url><url>
     <loc>http://localhost:1313/le-gite/</loc>
   </url><url>
+    <loc>http://localhost:1313/photos/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/tarifs/</loc>
