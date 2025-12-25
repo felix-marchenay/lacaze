@@ -1,5 +1,5 @@
 {{ $images := split (.Get "images") "," }}
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0;">
+<div class="gallery-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0;">
 {{ range $images }}
   {{ $img := trim . " " }}
   <a href="/images/{{ $img }}" class="gallery-item" onclick="openLightbox(event, '/images/{{ $img }}')">
