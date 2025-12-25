@@ -67,9 +67,6 @@ En cas d'annulation, merci de nous prévenir le plus tôt possible. Les conditio
 - Arrivée : à partir de 16h
 - Départ : avant 12h
 
-### Animaux
-Les animaux sont acceptés sous certaines conditions. Merci de nous contacter.
-
 ### Taxe de séjour
 La taxe de séjour est incluse dans nos tarifs.
 

@@ -16,11 +16,6 @@ title: "Contact"
 - Prendre la D922 en direction de La Bastide-l'Évêque
 - Suivre les indications "La Caze"
 
-**Depuis l'autoroute A20** :
-- Sortie 58 (Cahors Sud)
-- Direction Villefranche-de-Rouergue par la D911
-- Puis D922 vers La Bastide-l'Évêque
-
 **Depuis Rodez** (45 min) :
 - Prendre la D840 puis D922 en direction de Villefranche-de-Rouergue
 - Suivre La Bastide-l'Évêque
