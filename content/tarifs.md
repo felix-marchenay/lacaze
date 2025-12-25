@@ -4,6 +4,10 @@ title: "Tarifs et Réservation"
 
 ## Grille de tarifs
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+<div>
+
 ### Camping
 
 | Description | Prix |
@@ -12,12 +16,20 @@ title: "Tarifs et Réservation"
 | Personne supplémentaire (+ de 4 ans) | 4 € |
 | Électricité | 3 € |
 
+</div>
+
+<div>
+
 ### Le Gîte
 
 | Description | Prix |
 |-------------|------|
 | Nuitée (2 minimum) | 70 € |
 | Semaine | 420 € |
+
+</div>
+
+</div>
 
 ## Comment réserver ?
 
