@@ -2,7 +2,7 @@
 title: "Le Gîte"
 ---
 
-{{< gallery images="salon6.jpg,salon3.jpg,salon1.jpg,photo3.jpg,photo6.jpg,photo1.jpg,photo2.jpg,photo8.jpg,photo46.jpg" >}}
+{{< gallery images="salon6.jpg,salon3.jpg,salon1.jpg,photo3.jpg,photo6.jpg,photo1.jpg,photo2.jpg,photo8.jpg,photo19.jpg" >}}
 
 ## Un hébergement confortable en pleine nature
 
