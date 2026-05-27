@@ -38,7 +38,7 @@ title: "Tarifs et Réservation"
 📱 **06 16 16 07 31**
 
 ### Par email
-📧 **contact@camping-lacaze.fr**
+📧 **jcmarchenay@gmail.com**
 
 Précisez dans votre demande :
 - Vos dates souhaitées
